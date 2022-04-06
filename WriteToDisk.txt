@@ -1,0 +1,12 @@
+import java.util.Date;
+import java.io.*;
+import java.sql.Timestamp;
+
+public class WriteToDisk
+{
+    public void commitChange()
+    {
+         Date todaysDate = new Date();
+         String record = "Date Planted: " + todaysDate.getMonth() + "/" + todaysDate.getDate() + "/" + (todaysDate.getYear()+1900);
+    }
+}

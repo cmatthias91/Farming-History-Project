@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	    System.out.println("Please enter the number for the action you wish to perform and press Enter:");
+	    System.out.println("1. Add a new plant record");
+	    System.out.println("2. Water a plant");
+	    System.out.println("3. Replant something");
+	    
+	    Scanner kb = new Scanner(System.in);
+	    
+	    String userChoice = kb.nextLine();
+	    
+	    System.out.println(userChoice);
+	}
+}
