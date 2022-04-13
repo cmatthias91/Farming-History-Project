@@ -1,6 +1,0 @@
-public abstract class Plant
-{
-    String plantType;
-    int plantID;
-    
-}
